@@ -1,4 +1,4 @@
-# Diabetes Prediction model for kaggle competion: 
+# Diabetes Prediction model: 
 https://www.kaggle.com/competitions/playground-series-s5e12
 
 Test and training data can be found on the site above.
@@ -6,3 +6,13 @@ Test and training data can be found on the site above.
 This is a culmination of different types of models and techniques I learned in my intro ML course at UTK. Some models included in this notebook are logistic regression, XGBoost, and MLP. You may also notice that there are Random Forest models being trained as well, but they showed too much overfitting to be used in the ensemble thus I excluded it.
 
 Even with an Ensemble I only got model accuracies of 66-67%
+
+
+# Grade Prediction Model:
+https://www.kaggle.com/competitions/playground-series-s6e1
+
+Testing different regression models for predicting student exam grades.
+
+Best model uses Gradient Boost Regressor to achieve a Root Mean Squared Error of 8.67941.
+
+I streamlined the One Hot Encoding and Data Scaling processes.
